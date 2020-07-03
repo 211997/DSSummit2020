@@ -77,7 +77,7 @@ def print_individual(x):
         .format(str(x), fitness(x), prob_score(x, fitness)))
 
 if __name__ == "__main__":
-    population = [random_seq(8) for _ in range(100)]
+    population = [random_seq(8) for _ in range(10)]
     generation = 1
 
     while not 28 in [fitness(x) for x in population]:
