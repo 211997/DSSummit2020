@@ -4,7 +4,7 @@ import string
 
 # Function call to generate initial random sequence
 def random_seq(size):
-    return [ random.randint(1, 8) for _ in range(size) ]
+    return [ random.randint(0, 7) for _ in range(size) ]
 
 maxFitness = 28 # Maximum fitness is calculated using (size * (size-1))/2
 
